@@ -1,0 +1,77 @@
+/**********************************
+TABLET 768px
+***********************************/
+
+
+
+
+@media screen and (min-width: 768px) {
+	nav li {
+		display: inline-block;
+		background: inherit;
+		margin: 0 10px;
+	}
+
+	.profilePic {
+		float: right;
+		width: 45%;
+		padding-left: 40px;
+	}
+
+	#portfolio li {
+		float: left;
+		width: 45%;
+		padding-left: 10px;
+	}
+
+
+	#portfolio li:nth-child(3n) {
+    clear: left;
+  }
+
+  #portfolio li:nth-child(6n) {
+    clear: right;
+  }
+
+  #portfolio li:nth-child(7n) {
+    clear: left;
+  }
+
+  .mobileFooter {
+  	display: none;
+  }
+
+  .responsiveFooter {
+  	display: inline;
+  	float: left;
+  	margin: 0 8px;
+  }
+}
+
+/**********************************
+DESKTOP 1024px
+***********************************/
+
+
+
+
+@media screen and (min-width: 1024px) {
+	
+	.profilePic {
+		margin-bottom: 80px;
+	}
+
+	.name {
+		float: left;
+		width: 45%;
+	}
+
+	#portfolio li {
+		float: left;
+		width: 25%;
+		padding-left: 45px;
+	}
+	#portfolio li:nth-child(3n) {
+    clear: right;
+  }
+}

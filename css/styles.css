@@ -1,0 +1,231 @@
+/**********************************
+GENERAL
+***********************************/
+
+
+
+
+body {
+  font-family: 'Merriweather', sans-serif;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  overflow: auto;
+}
+
+#wrapper {
+  max-width: 100%;
+  padding: 0 5%;
+  clear: both;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+}
+
+.responsiveFooter {
+	display: none;
+}
+
+
+
+
+/**********************************
+HEADER
+***********************************/
+
+
+
+
+header {
+	margin: 0 0 30px 0;
+  padding: 5px 0 0 0;
+  width: 100%;
+  overflow: auto;
+}
+
+
+.name {
+ 	text-align: center;
+	margin-top: 0;
+	padding: 20px 0 0 0 ;
+}
+
+
+
+
+/**********************************
+NAVIGATION
+***********************************/
+
+
+
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+	padding: 15px 0;
+	margin: 3px 0;
+}
+
+
+
+
+/**********************************
+TOP CONTENT
+***********************************/
+
+
+
+
+#topContent {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10% 15%;
+  text-align: center;
+}
+
+#topContent p {
+	line-height: 1.5em;
+}
+
+
+
+
+/**********************************
+PORTFOLIO
+***********************************/
+
+
+
+
+#portfolio {
+  margin: 0;
+  text-align: center;
+}
+
+#portfolio li {
+  text-align: center;
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: calc(100% - 2.5em);
+}
+
+#portfolio li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+}
+
+
+
+
+/**********************************
+BOTTOM CONTENT
+***********************************/
+
+
+
+
+#bottomContent {
+	text-align: center;
+}
+
+#project {
+  margin: 0;
+  padding: 5% 10%;
+}
+
+#contact {
+  margin: 0 15px;
+  padding: 5% 8%;
+  border-top: 1px solid #fff;
+}
+
+#contact a {
+	padding-right: 5%;
+}
+
+footer {
+	margin: 0px 15px;
+	padding-top: 15px;
+	min-height: 140px;
+	text-align: center;
+	border-top: 1px solid #fff;
+}
+footer li {
+	list-style: none;
+	float: left;
+	width: 45%;
+	display: inline;
+	padding-top: 25px;
+	font-size: 0.85em;
+}
+footer h3 {
+	padding-right: 10px;
+	font-size: 1em
+}
+
+
+
+
+/**********************************
+COLOURS
+***********************************/
+
+a:visited {
+	color: #262626;
+}
+
+
+body {
+	background: #99ffff;
+}
+
+
+header {
+	background: #009999;
+}
+
+nav li {
+	background: #99ffff;
+}
+
+body {
+	color: #262626;
+}
+
+#project {
+	background: #009999;
+}
+
+#contact {
+	background: #009999;
+}
+
+footer {
+	background: #009999;
+}
+#bottomContent {
+	background: #009999;
+}
